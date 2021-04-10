@@ -1,0 +1,26 @@
+body {
+  font-family: "Poppins", sans-serif im !important;
+}
+
+a.nav-link.sqa__navigation-item {
+  margin: 10px;
+}
+
+.mboile__nav {
+  background: #0e1c1d;
+}
+
+span.sqa__navigation-item-span {
+  color: white;
+  margin-left: 5px;
+}
+
+span.sqa__navigation-item-sidebar-span {
+  color: white;
+  margin-left: 5px;
+}
+
+.sidebar__nav {
+  padding: 0;
+  text-align: center;
+}
