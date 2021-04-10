@@ -2,6 +2,10 @@ body {
   font-family: "Poppins", sans-serif im !important;
 }
 
+button.navbar-toggler {
+  background: white !important;
+}
+
 a.nav-link.sqa__navigation-item {
   margin: 10px;
 }
@@ -34,4 +38,8 @@ a.nav-link.sqa__navigation-item-sidebar:hover {
   border-left: 4px solid #1aae55;
   border-radius: 0px;
   transition: 0.5s;
+}
+
+.sidebar__container {
+  display: flex;
 }
