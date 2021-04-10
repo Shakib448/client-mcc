@@ -10,7 +10,8 @@ a.nav-link.sqa__navigation-item {
   margin: 10px;
 }
 
-.mboile__nav {
+.mobile__nav {
+  display: none;
   background: #0e1c1d;
 }
 
@@ -42,4 +43,37 @@ a.nav-link.sqa__navigation-item-sidebar:hover {
 
 .sidebar__container {
   display: flex;
+}
+
+.billings {
+  background: #e7f4ed;
+  width: 80%;
+  height: 100vh;
+}
+
+.billing__breadcrumb {
+  padding: 25px 35px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.billings__active {
+  color: #0f654e;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    display: none;
+  }
+  .billings {
+    width: 100%;
+  }
+  .mobile__nav {
+    display: block;
+  }
 }
