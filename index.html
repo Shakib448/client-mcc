@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
       rel="stylesheet"
     />
     <title>Billing Information</title>
@@ -176,8 +176,8 @@
     <div style="display: flex">
       <div class="sidebar">
         <div
-          class="d-flex flex-column text-white bg-dark d-none d-lg-block d-md-block"
-          style="position: fixed; height: 100%; width: 20%"
+          class="d-flex flex-column text-white d-none d-lg-block d-md-block"
+          class="sidebar__links"
         >
           <div class="col text-center">
             <a class="navbar-brand sidebar__nav" href="#">
@@ -329,6 +329,34 @@
           </div>
           <div class="billing__notification">
             <img src="assets/Group 5798@2x.png" alt="" />
+          </div>
+        </div>
+        <div class="form__area">
+          <div class="col-md-6 add__form">
+            <div class="form__header">
+              <div class="add__info__img">
+                <img src="assets/Group 5828@2x.png" />
+              </div>
+              <div class="add__info"><h3>Add Information</h3></div>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+              <input
+                type="password"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Password"
+              />
+              <label for="floatingPassword">Password</label>
+            </div>
           </div>
         </div>
       </div>

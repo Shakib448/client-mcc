@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif im !important;
+  font-family: "Poppins", sans-serif;
 }
 
 button.navbar-toggler {
@@ -31,7 +31,21 @@ span.sqa__navigation-item-sidebar-span {
 }
 
 .sidebar {
-  background-image: linear-gradient(#0e1c1d, #000);
+  background-image: url("assets/Rectangle 1.png");
+}
+
+.form__header {
+  height: 70px;
+  background-image: linear-gradient(45deg, #0e1c1d 80%, #47a07b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.add__form {
+  padding: 20px;
+  background: white;
 }
 
 a.nav-link.sqa__navigation-item-sidebar:hover {
