@@ -43,6 +43,15 @@ span.sqa__navigation-item-sidebar-span {
 
 .form__area {
   padding: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.billing__card-area {
+  position: absolute;
+  width: 94%;
+  top: 2.5%;
+  left: 52%;
 }
 
 .form__header {
@@ -114,5 +123,16 @@ a.nav-link.sqa__navigation-item-sidebar:hover {
   }
   .mobile__nav {
     display: block;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .billing__card-area {
+    position: static;
+    width: 100%;
+    margin: 20px 0;
+  }
+  .form__area {
+    position: static;
   }
 }
