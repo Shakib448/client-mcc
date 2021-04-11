@@ -343,7 +343,7 @@
               <div class="mb-3">
                 <label for="fullName" class="form-label">Full Name :</label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control pt-3 pb-3"
                   id="fullName"
                   placeholder="Enter Full Name"
@@ -352,7 +352,7 @@
               <div class="mb-3">
                 <label for="Address" class="form-label">Address Line 1 :</label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control pt-3 pb-3"
                   id="Address"
                   placeholder="Enter Address Line 1"
@@ -363,7 +363,7 @@
                   >Address1 Line 2 :</label
                 >
                 <input
-                  type="email"
+                  type="text"
                   class="form-control pt-3 pb-3"
                   id="Address1"
                   placeholder="Enter Address Line 2"
@@ -372,7 +372,7 @@
               <div class="mb-3">
                 <label for="City" class="form-label">City:</label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control pt-3 pb-3"
                   id="City"
                   placeholder="Enter City"
@@ -383,7 +383,7 @@
                   >State/Country/Province/Religion :</label
                 >
                 <input
-                  type="email"
+                  type="text"
                   class="form-control pt-3 pb-3"
                   id="Address1"
                   placeholder="Enter State/Country/Province/Religion"
@@ -392,7 +392,7 @@
               <div class="mb-3">
                 <label for="Zip" class="form-label">Zip Postal Code : </label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control pt-3 pb-3"
                   id="Zip"
                   placeholder="Enter Zip Postal Code"
@@ -401,7 +401,7 @@
               <div class="mb-3">
                 <label for="Country" class="form-label">Country</label>
                 <input
-                  type="email"
+                  type="text"
                   class="form-control pt-3 pb-3"
                   id="Country"
                   placeholder="Enter Country"
@@ -420,15 +420,88 @@
                 <div class="add__info__img">
                   <img src="assets/Group 5828@2x.png" />
                 </div>
-                <div class="add__info"><h3>Add Information</h3></div>
+                <div class="add__info__current">
+                  <h3>Current Billing Information</h3>
+                </div>
+              </div>
+              <div class="form__body">
+                <h3>Credit Card :</h3>
+                <div class="mb-3">
+                  <label for="Credit" class="form-label">Card Name : </label>
+                  <input
+                    type="text"
+                    class="form-control pt-2 pb-2"
+                    id="Credit"
+                    placeholder="Visa"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="Ending" class="form-label">Ending In :</label>
+                  <input
+                    type="text"
+                    class="form-control pt-2 pb-2"
+                    id="Ending"
+                    placeholder="3838"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="Expiration" class="form-label"
+                    >Expiration Date :
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control pt-2 pb-2"
+                    id="Expiration"
+                    placeholder="12/2023"
+                  />
+                </div>
+                <div class="mb-3">
+                  <h5>Name And Address :</h5>
+                  No Information Provided
+                </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mt-3">
               <div class="form__header">
                 <div class="add__info__img">
                   <img src="assets/Group 5828@2x.png" />
                 </div>
-                <div class="add__info"><h3>Add Information</h3></div>
+                <div class="add__info__upadate">
+                  <h3>Update Credit Card</h3>
+                </div>
+              </div>
+              <div class="form__body">
+                <div class="mb-3">
+                  <label for="CreditNumber" class="form-label"
+                    >Card Number :
+                  </label>
+                  <input
+                    type="text"
+                    class="form-control pt-2 pb-2"
+                    id="CreditNumber"
+                    placeholder="1234 1234 1234 1234"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="Expiration" class="form-label"
+                    >Expiration In :</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control pt-2 pb-2"
+                    id="Expiration"
+                    placeholder="MM/YY"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="cvc" class="form-label">CVC : </label>
+                  <input
+                    type="text"
+                    class="form-control pt-2 pb-2"
+                    id="cvc"
+                    placeholder="12/2023"
+                  />
+                </div>
               </div>
             </div>
           </div>
