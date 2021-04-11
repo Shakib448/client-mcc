@@ -16,6 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <title>Billing Information</title>
   </head>
   <body>
@@ -475,12 +479,17 @@
                   <label for="CreditNumber" class="form-label"
                     >Card Number :
                   </label>
-                  <input
-                    type="text"
-                    class="form-control pt-2 pb-2"
-                    id="CreditNumber"
-                    placeholder="1234 1234 1234 1234"
-                  />
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Recipient's username"
+                      aria-label="Recipient's username"
+                      aria-describedby="basic-addon2"
+                      id="CreditNumber"
+                    />
+                    <span class="input-group-text" id="basic-addon2">@</span>
+                  </div>
                 </div>
                 <div class="mb-3">
                   <label for="Expiration" class="form-label"
