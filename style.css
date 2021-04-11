@@ -41,6 +41,9 @@ span.sqa__navigation-item-sidebar-span {
   /* position: fixed; */
   /* height: 100vh; */
 }
+.form-control:focus {
+  box-shadow: none;
+}
 
 .form__area {
   padding: 25px;
