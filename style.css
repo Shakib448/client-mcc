@@ -51,6 +51,10 @@ span.sqa__navigation-item-sidebar-span {
   overflow: hidden;
 }
 
+.input-group-text {
+  background: transparent;
+}
+
 .billing__card-area {
   position: absolute;
   width: 94%;
