@@ -168,4 +168,13 @@ img.icon__address {
     width: 100%;
     margin: 20px 0;
   }
+  span.sqa__navigation-item-span {
+    font-size: 17px;
+  }
+  .nav-item a.nav-link.sqa__navigation-item:hover {
+    background-color: #2e2e2e;
+    border-left: 4px solid #1aae55;
+    border-radius: 0px;
+    transition: 0.5s;
+  }
 }
