@@ -68,3 +68,9 @@ span.price {
   font-weight: bold;
   color: #ffac00;
 }
+
+@media (max-width: 767.98px) {
+  .change__plan__area {
+    height: 100%;
+  }
+}
