@@ -1,5 +1,5 @@
 .change__plan__area {
-  height: 60vh;
+  height: 70vh;
   background: white;
   border-radius: 20px;
 }
@@ -7,4 +7,23 @@
 .change__plan__header {
   padding: 20px;
   text-align: center;
+}
+
+.change__plan-main-package-area {
+  display: flex;
+  justify-content: center;
+}
+
+.package__contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.package__contents-btn button {
+  background: linear-gradient(45deg, #0e1c1d 80%, #47a07b);
+  color: white;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
 }
