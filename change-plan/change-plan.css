@@ -1,0 +1,10 @@
+.change__plan__area {
+  height: 60vh;
+  background: white;
+  border-radius: 20px;
+}
+
+.change__plan__header {
+  padding: 20px;
+  text-align: center;
+}
