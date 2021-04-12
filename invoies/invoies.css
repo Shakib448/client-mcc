@@ -11,7 +11,7 @@
     from(#47a07b),
     to(#285a44)
   );
-  background-image: linear-gradient(#47a07b, #285a44);
+  background-image: linear-gradient(45deg, #0e1c1d 70%, #47a07b);
   border-bottom: none;
   color: #fff;
 }
@@ -78,7 +78,7 @@ th:nth-child(1) {
     from(#47a07b),
     to(#285a44)
   );
-  background-image: linear-gradient(#47a07b, #285a44);
+  background-image: linear-gradient(45deg, #0e1c1d 70%, #47a07b);
   color: white;
   padding-right: 10px;
 }
@@ -91,7 +91,7 @@ th:nth-child(2) {
     from(#47a07b),
     to(#285a44)
   );
-  background-image: linear-gradient(#47a07b, #285a44);
+  background-image: linear-gradient(45deg, #0e1c1d 70%, #47a07b);
   color: white;
   text-align: center;
 }
@@ -104,7 +104,7 @@ th:nth-child(3) {
     from(#47a07b),
     to(#285a44)
   );
-  background-image: linear-gradient(#47a07b, #285a44);
+  background-image: linear-gradient(45deg, #0e1c1d 70%, #47a07b);
   text-align: center;
   color: white;
 }
@@ -117,7 +117,7 @@ th:nth-child(4) {
     from(#47a07b),
     to(#285a44)
   );
-  background-image: linear-gradient(#47a07b, #285a44);
+  background-image: linear-gradient(45deg, #0e1c1d 70%, #47a07b);
   text-align: center;
   color: white;
 }
