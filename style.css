@@ -35,7 +35,7 @@ span.sqa__navigation-item-span {
 
 span.sqa__navigation-item-sidebar-span {
   color: white;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .sidebar__nav {
@@ -126,6 +126,9 @@ a.nav-link.sqa__navigation-item-sidebar:hover {
 .add__information__btn:focus {
   outline: 0;
   border: none;
+}
+.add__info__img {
+  margin-right: 5px;
 }
 
 .sidebar {
