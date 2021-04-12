@@ -8,14 +8,6 @@
   box-shadow: none;
 }
 
-.form__area {
-  padding: 25px;
-  position: relative;
-  overflow: hidden;
-  left: 19.5vw;
-  top: 110px;
-}
-
 .input-group-text {
   background: transparent;
 }
@@ -41,22 +33,6 @@
   background: white;
 }
 
-.billings {
-  width: 80%;
-}
-
-.breadcrumb__all {
-  padding: 25px 35px;
-  background: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  right: 0;
-  position: fixed;
-  width: 80%;
-  z-index: 1;
-}
-
 .add__information__btn {
   padding: 15px;
   border-radius: 10px;
@@ -78,25 +54,12 @@ img.icon__address {
 }
 
 @media (max-width: 991.98px) {
-  .sidebar {
-    display: none;
-  }
-  .breadcrumb__all {
-    width: 100vw;
-    position: static;
-  }
-
   .billings {
     width: 100%;
     overflow: hidden;
   }
   .mobile__nav {
     display: block;
-  }
-
-  .form__area {
-    left: 0;
-    top: 0;
   }
 }
 
