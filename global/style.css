@@ -44,7 +44,7 @@ span.sqa__navigation-item-sidebar-span {
 }
 
 .sidebar {
-  background-image: url("assets/Rectangle 1.png");
+  background-image: url("../assets/Rectangle 1.png");
   position: fixed;
   height: 100vh;
 }
