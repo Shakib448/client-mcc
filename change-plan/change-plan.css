@@ -42,17 +42,15 @@
   left: 0;
   right: 0;
   text-align: center;
-  /* top: 0; */
 }
 
 img.card-img-top {
   height: 200px;
 }
 
-/* .package__price__list {
-  margin-right: -30px;
-} */
-
+.package__price__list {
+  margin-right: -35px;
+}
 sup {
   top: -2.5rem;
   color: #fff;
