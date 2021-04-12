@@ -27,3 +27,15 @@
   padding: 10px;
   border-radius: 5px;
 }
+
+.change__plan__card-img {
+  position: relative;
+}
+
+.change__plan__status {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 16.5%;
+}
