@@ -1,0 +1,123 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #e7f4ed;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.mobile__nav {
+  display: none;
+  background: #0e1c1d;
+}
+
+.sidebar__nav {
+  padding: 0;
+  text-align: center;
+}
+
+.sidebar {
+  background-image: url("../assets/Rectangle 1.png");
+  position: fixed;
+  height: 100vh;
+}
+
+.breadcrumb__all {
+  padding: 25px 35px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  right: 0;
+  position: fixed;
+  width: 80%;
+  z-index: 1;
+}
+.sidebar__container {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.breadcrumb__active {
+  color: #0f654e;
+}
+
+a.nav-link.sqa__navigation-item-sidebar:hover {
+  background-color: #2e2e2e;
+  border-left: 4px solid #1aae55;
+  border-radius: 0px;
+  transition: 0.5s;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    display: none;
+  }
+  .breadcrumb__all {
+    width: 100vw;
+    position: static;
+  }
+}
+
+a.nav-link.sqa__navigation-item {
+  margin: 10px;
+}
+
+span.sqa__navigation-item-span {
+  color: white;
+  margin-left: 5px;
+}
+button.navbar-toggler {
+  background: white !important;
+}
+.contents {
+  width: 80%;
+}
+span.sqa__navigation-item-sidebar-span {
+  color: white;
+  margin-left: 10px;
+}
+
+.main__content-area {
+  padding: 25px;
+  position: relative;
+  overflow: hidden;
+  left: 19.5vw;
+  top: 110px;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    display: none;
+  }
+  .breadcrumb__all {
+    width: 100vw;
+    position: static;
+  }
+  .mobile__nav {
+    display: block;
+  }
+  .main__content-area {
+    top: 0;
+    left: 0;
+    width: 98vw;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .nav-item a.nav-link.sqa__navigation-item:hover {
+    background-color: #2e2e2e;
+    border-left: 4px solid #1aae55;
+    border-radius: 0px;
+    transition: 0.5s;
+  }
+}

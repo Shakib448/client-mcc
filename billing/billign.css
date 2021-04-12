@@ -1,0 +1,75 @@
+.form__body {
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.input-group-text {
+  background: transparent;
+}
+
+.billing__card-area {
+  position: absolute;
+  width: 94%;
+  top: 2.5%;
+  left: 52%;
+}
+
+.form__header {
+  height: 70px;
+  background-image: linear-gradient(45deg, #0e1c1d 80%, #47a07b);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.add__form {
+  background: white;
+}
+
+.add__information__btn {
+  padding: 15px;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, #0e1c1d 50%, #47a07b);
+  color: white;
+  border: none;
+}
+
+.add__information__btn:focus {
+  outline: 0;
+  border: none;
+}
+.add__info__img {
+  margin-right: 5px;
+}
+
+img.icon__address {
+  margin-right: 4px;
+}
+
+@media (max-width: 991.98px) {
+  .billings {
+    width: 100%;
+    overflow: hidden;
+  }
+  .mobile__nav {
+    display: block;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .billing__card-area {
+    position: static;
+    width: 100%;
+    margin: 20px 0;
+  }
+  span.sqa__navigation-item-span {
+    font-size: 17px;
+  }
+}
