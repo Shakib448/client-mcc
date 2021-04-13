@@ -186,16 +186,16 @@ span#basic-addon3 {
 
 @media (max-width: 768px) {
   table.sqa__table-data {
-    width: 800px !important;
+    width: 1000px !important;
   }
   .sqa__viewMore-btn {
-    width: 800px !important;
+    width: 1000px !important;
   }
   .view__history__table {
     overflow: scroll !important;
   }
   .view__history__content {
-    width: 800px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
   }
