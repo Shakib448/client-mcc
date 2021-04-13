@@ -14,27 +14,38 @@
   border-radius: 10px 10px 0px 0px;
 }
 
-.add__form {
+.Setting__form {
   background: white;
 }
 
-.add__information__btn {
-  padding: 15px;
-  border-radius: 10px;
-  background-image: linear-gradient(45deg, #0e1c1d 50%, #47a07b);
+.Setting__btn {
+  padding: 15px 30px;
+  border-radius: 35px;
+  background-image: linear-gradient(45deg, #47a07b, #285a44);
   color: white;
   border: none;
+  font-size: 20px;
 }
 
-.add__information__btn:focus {
+.Setting__btn:focus {
   outline: 0;
   border: none;
 }
-.add__info__img {
+.Setting__img {
   margin-right: 5px;
 }
 
 .profile__setting-main-area {
   display: flex;
   justify-content: center;
+}
+
+.arrow-icon {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-top: 2px;
+}
+
+.setting__btn-img {
+  margin-right: 5px;
 }
