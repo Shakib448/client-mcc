@@ -74,35 +74,35 @@ td {
 }
 
 th:nth-child(1) {
-  background-image: linear-gradient(45deg, #0e1c1d 50%, #47a07b);
+  background-image: linear-gradient(45deg, #47a07b 20%, #0e1c1d 60%);
   color: white;
   padding-right: 10px;
 }
 
 th:nth-child(2) {
-  background-image: linear-gradient(45deg, #0e1c1d 50%, #47a07b);
+  background-image: linear-gradient(45deg, #0e1c1d 100%, #47a07b);
   color: white;
   text-align: center;
 }
 
 th:nth-child(3) {
-  background-image: linear-gradient(45deg, #0e1c1d 50%, #47a07b);
+  background-image: linear-gradient(45deg, #0e1c1d 100%, #47a07b);
   text-align: center;
   color: white;
 }
 
 th:nth-child(4) {
-  background-image: linear-gradient(45deg, #0e1c1d 50%, #47a07b);
+  background-image: linear-gradient(45deg, #0e1c1d 100%, #47a07b);
   text-align: center;
   color: white;
 }
 th:nth-child(5) {
-  background-image: linear-gradient(45deg, #0e1c1d 50%, #47a07b);
+  background-image: linear-gradient(45deg, #0e1c1d 100%, #47a07b);
   text-align: center;
   color: white;
 }
 th:nth-child(6) {
-  background-image: linear-gradient(45deg, #0e1c1d 50%, #47a07b);
+  background-image: linear-gradient(45deg, #0e1c1d 100%, #47a07b);
   text-align: center;
   color: white;
 }
