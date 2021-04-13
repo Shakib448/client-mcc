@@ -1,17 +1,15 @@
 .account__area {
-  height: 85vh;
   background: white;
   border-radius: 20px;
-}
-
-.change__plan__header {
   padding: 20px;
-  text-align: center;
 }
 
 .account__main-package-area {
   display: flex;
   justify-content: center;
+}
+.card {
+  border: none;
 }
 
 .account__card-img {
@@ -47,24 +45,12 @@
 img.card-img-top {
   height: 200px;
 }
-
-.package__price__list {
-  margin-right: -35px;
-}
-sup {
-  top: -2.5rem;
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-}
-sub {
-  font: 15px;
-  color: #fff;
-  font-weight: bold;
+.package__name-keyword {
+  font-size: 10px;
 }
 
 span.price {
-  font-size: 53px;
+  font-size: 30px;
   font-weight: bold;
   color: #ffac00;
 }
