@@ -31,6 +31,11 @@
   outline: 0;
   border: none;
 }
+.setting__select:focus {
+  outline: 0;
+  border-color: #47a07b;
+  box-shadow: none;
+}
 .Setting__img {
   margin-right: 5px;
 }
