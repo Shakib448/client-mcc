@@ -4,10 +4,6 @@
   padding: 20px;
 }
 
-.account__main-package-area {
-  display: flex;
-  justify-content: center;
-}
 .card {
   border: none;
 }
@@ -45,8 +41,8 @@
 img.card-img-top {
   height: 200px;
 }
-.package__name-keyword {
-  font-size: 10px;
+.package__name {
+  font-size: 11px;
 }
 
 span.price {
