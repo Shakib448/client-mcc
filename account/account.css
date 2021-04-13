@@ -1,0 +1,76 @@
+.account__area {
+  height: 85vh;
+  background: white;
+  border-radius: 20px;
+}
+
+.change__plan__header {
+  padding: 20px;
+  text-align: center;
+}
+
+.account__main-package-area {
+  display: flex;
+  justify-content: center;
+}
+
+.account__card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.package__contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.package__contents-btn button {
+  background: linear-gradient(45deg, #0e1c1d 80%, #47a07b);
+  color: white;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.account__card-img {
+  position: relative;
+}
+
+.account__status {
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+img.card-img-top {
+  height: 200px;
+}
+
+.package__price__list {
+  margin-right: -35px;
+}
+sup {
+  top: -2.5rem;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+sub {
+  font: 15px;
+  color: #fff;
+  font-weight: bold;
+}
+
+span.price {
+  font-size: 53px;
+  font-weight: bold;
+  color: #ffac00;
+}
+
+@media (max-width: 767.98px) {
+  .account__area {
+    height: 100%;
+  }
+}
