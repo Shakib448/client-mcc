@@ -117,6 +117,21 @@ tr:nth-child(even) {
 }
 .view__history__content {
   padding: 25px 20px 10px 25px;
+  display: flex;
+  align-items: baseline;
+}
+
+.view__history-search {
+  border-radius: 25px !important;
+}
+
+input.form-control.view__history-search.p-2 {
+  padding: 14px !important;
+}
+.view__history-search:focus {
+  border-color: #2db159;
+  outline: 0;
+  box-shadow: none;
 }
 .sqa__customer-typo {
   margin: 0;
@@ -124,14 +139,33 @@ tr:nth-child(even) {
   color: #2db159 !important;
 }
 
+.view__search__form {
+  position: relative;
+}
+span#basic-addon3 {
+  background: transparent;
+  border-left: 0;
+  border-color: transparent;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  cursor: pointer;
+  z-index: 999;
+}
+
 @media (max-width: 768px) {
   table.sqa__table-data {
-    width: 800px;
+    width: 800px !important;
   }
   .sqa__viewMore-btn {
-    width: 800px;
+    width: 800px !important;
   }
-  .invoice__table {
-    overflow: scroll;
+  .view__history__table {
+    overflow: scroll !important;
+  }
+  .view__history__content {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
   }
 }
