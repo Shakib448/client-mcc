@@ -109,11 +109,19 @@ td:nth-child(4) {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-.invoice__table {
+.view__history__table {
   background: #fff;
 }
-.invoice__table::-webkit-scrollbar {
+.view__history__table::-webkit-scrollbar {
   display: none;
+}
+.view__history__content {
+  padding: 25px 20px 10px 25px;
+}
+.sqa__customer-typo {
+  margin: 0;
+  background: none !important;
+  color: #2db159 !important;
 }
 
 @media (max-width: 768px) {
