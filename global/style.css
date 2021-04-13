@@ -94,6 +94,20 @@ span.sqa__navigation-item-sidebar-span {
   top: 110px;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#47a07b, #285a44);
+  border-radius: 10px;
+}
+
 @media (max-width: 991.98px) {
   .sidebar {
     display: none;

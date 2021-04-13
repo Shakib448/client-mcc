@@ -12,13 +12,12 @@
     />
     <link
       rel="icon"
-      href="../assets/main-logo.png"
+      href="../assets/main-logo@2x.png"
       type="image/gif"
       sizes="16x16"
     />
-
     <link rel="stylesheet" href="../global/style.css" />
-    <link rel="stylesheet" href="billign.css" />
+    <link rel="stylesheet" href="view-history.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
@@ -28,7 +27,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <title>Billing Information</title>
+    <title>View Change History</title>
   </head>
   <body>
     <!-- Mobile navigation -->
@@ -114,7 +113,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link sqa__navigation-item"
-                  href="../view-history/view-history.html"
+                  href="view-history.html"
                 >
                   <div class="d-flex align-items-center">
                     <img
@@ -163,7 +162,10 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link sqa__navigation-item" href="billing.html">
+                <a
+                  class="nav-link sqa__navigation-item"
+                  href="../billing/billing.html"
+                >
                   <div class="d-flex align-items-center">
                     <img
                       src="../assets/Icon awesome-credit-card.png"
@@ -176,7 +178,6 @@
                   </div>
                 </a>
               </li>
-
               <li class="nav-item">
                 <a class="nav-link sqa__navigation-item" href="#">
                   <div class="d-flex align-items-center">
@@ -273,7 +274,7 @@
             <li class="nav-item mb-3">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
-                href="../view-history/view-history.html"
+                href="view-history.html"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -295,7 +296,7 @@
                 <div class="d-flex align-items-center">
                   <img
                     src="../assets/icons8-invoice-96.png"
-                    alt="Invoices "
+                    alt="Invoices"
                     width="20px"
                   />
                   <span class="sqa__navigation-item-sidebar-span ml-2"
@@ -313,7 +314,7 @@
                 <div class="d-flex align-items-center">
                   <img
                     src="../assets/icons8-refresh-480.png"
-                    alt="Billing Information"
+                    alt="Change Plan"
                     width="20px"
                   />
                   <span class="sqa__navigation-item-sidebar-span ml-2"
@@ -326,7 +327,7 @@
             <li class="nav-item mb-3">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
-                href="../change-plan/change-plan.html"
+                href="../billing/billing.html"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -363,10 +364,10 @@
       <div class="contents">
         <div class="breadcrumb__all">
           <div class="breadcrumb__contnet">
-            <h4>Billing Information</h4>
+            <h4>History For Waterproofing</h4>
             <h5>
               Home/Account/
-              <span class="breadcrumb__active">Billings Information</span>
+              <span class="breadcrumb__active">History</span>
             </h5>
           </div>
           <div class="breadcrumb__notification">
@@ -374,205 +375,129 @@
           </div>
         </div>
         <div class="main__content-area">
-          <div class="col-md-6 add__form">
-            <div class="form__header">
-              <div class="add__info__img mb-2">
-                <img src="../assets/Scroll Group 1.png" />
+          <div class="view__history__table">
+            <div class="view__history__content">
+              <div class="col-md-6">
+                <h4 class="sqa__customer-typo">Customers</h4>
               </div>
-              <div class="add__info"><h4>Add Information</h4></div>
-            </div>
-            <div class="form__body">
-              <div class="mb-3">
-                <label for="fullName" class="form-label">Full Name :</label>
-                <input
-                  type="text"
-                  class="form-control pt-3 pb-3"
-                  id="fullName"
-                  placeholder="Enter Full Name"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="Address" class="form-label">Address Line 1 :</label>
-                <input
-                  type="text"
-                  class="form-control pt-3 pb-3"
-                  id="Address"
-                  placeholder="Enter Address Line 1"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="Address1" class="form-label"
-                  >Address1 Line 2 :</label
-                >
-                <input
-                  type="text"
-                  class="form-control pt-3 pb-3"
-                  id="Address1"
-                  placeholder="Enter Address Line 2"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="City" class="form-label">City:</label>
-                <input
-                  type="text"
-                  class="form-control pt-3 pb-3"
-                  id="City"
-                  placeholder="Enter City"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="Address1" class="form-label"
-                  >State/Country/Province/Religion :</label
-                >
-                <input
-                  type="text"
-                  class="form-control pt-3 pb-3"
-                  id="Address1"
-                  placeholder="Enter State/Country/Province/Religion"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="Zip" class="form-label">Zip Postal Code : </label>
-                <input
-                  type="text"
-                  class="form-control pt-3 pb-3"
-                  id="Zip"
-                  placeholder="Enter Zip Postal Code"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="Country" class="form-label">Country</label>
-                <input
-                  type="text"
-                  class="form-control pt-3 pb-3"
-                  id="Country"
-                  placeholder="Enter Country"
-                />
-              </div>
-              <div class="col text-end pt-2 pb-2">
-                <button type="submit" class="add__information__btn">
-                  ADD INFORMATION
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="billing__card-area">
-            <div class="col-md-6">
-              <div class="form__header">
-                <div class="add__info__img">
-                  <img src="../assets/Scroll Group 3.png" />
-                </div>
-                <div class="add__info__current">
-                  <h4>Current Billing Information</h4>
-                </div>
-              </div>
-              <div class="form__body">
-                <h3>Credit Card :</h3>
-                <div class="mb-3">
-                  <label for="Credit" class="form-label">Card Name : </label>
+              <div class="col-md-6">
+                <div class="input-group mb-3 view__search__form">
                   <input
                     type="text"
-                    class="form-control pt-2 pb-2"
-                    id="Credit"
-                    placeholder="Visa"
+                    class="form-control view__history-search p-2"
+                    aria-label="Search"
+                    aria-describedby="basic-addon3"
+                    placeholder="Search..."
                   />
-                </div>
-                <div class="mb-3">
-                  <label for="Ending" class="form-label">Ending In :</label>
-                  <input
-                    type="text"
-                    class="form-control pt-2 pb-2"
-                    id="Ending"
-                    placeholder="3838"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="Expiration" class="form-label"
-                    >Expiration Date :
-                  </label>
-                  <input
-                    type="text"
-                    class="form-control pt-2 pb-2"
-                    id="Expiration"
-                    placeholder="12/2023"
-                  />
-                </div>
-                <div class="mb-3">
-                  <h5>Name And Address :</h5>
-                  No Information Provided
+                  <span class="input-group-text" id="basic-addon3">
+                    <img src="../assets/Group 5787.png" alt="search" />
+                  </span>
                 </div>
               </div>
             </div>
-            <div class="col-md-6 mt-3">
-              <div class="form__header">
-                <div class="add__info__img">
-                  <img src="../assets/Scroll Group 4.png" />
-                </div>
-                <div class="add__info__upadate">
-                  <h4>Update Credit Card</h4>
-                </div>
-              </div>
-              <div class="form__body">
-                <div class="mb-3">
-                  <label for="CreditNumber" class="form-label"
-                    >Card Number :
-                  </label>
-                  <div class="input-group mb-3">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Recipient's username"
-                      aria-label="Recipient's username"
-                      aria-describedby="basic-addon2"
-                      id="CreditNumber"
-                    />
-                    <span class="input-group-text" id="basic-addon2">
-                      <img
-                        src="../assets/Icon awesome-address-card-1@2x.png"
-                        alt="credit"
-                        class="icon__address" />
-                      <img
-                        src="../assets/Icon awesome-credit-card@2x.png"
-                        alt="credit"
-                    /></span>
-                  </div>
-                </div>
-                <div class="mb-3">
-                  <label for="Expiration" class="form-label"
-                    >Expiration In :</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control pt-2 pb-2"
-                    id="Expiration"
-                    placeholder="MM/YY"
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="cvc" class="form-label">CVC : </label>
-                  <div class="input-group mb-3">
-                    <input
-                      type="text"
-                      class="form-control"
-                      placeholder="Recipient's username"
-                      aria-label="Recipient's username"
-                      aria-describedby="basic-addon2"
-                      id="cvc"
-                    />
-                    <span class="input-group-text" id="basic-addon2">
-                      <img
-                        src="../assets/Icon awesome-address-card-1@2x.png"
-                        alt="credit"
-                      />
-                    </span>
-                  </div>
-                </div>
-                <div class="col text-end pt-1 pb-1">
-                  <button type="submit" class="add__information__btn">
-                    Update Card
-                  </button>
-                </div>
-              </div>
+            <table class="sqa__table-data">
+              <tr>
+                <th>ID</th>
+                <th>Date</th>
+                <th>Keyword</th>
+                <th>Action</th>
+                <th>User</th>
+                <th>Email Address</th>
+                <th>Revert Change</th>
+              </tr>
+              <tr>
+                <td>23435643642</td>
+                <td>4/06/2020</td>
+                <td>Foundation walls</td>
+                <td>Remove</td>
+                <td>26</td>
+                <td>vadim@vadakconsulting.com</td>
+                <td><button class="change__history-btn">UNDO</button></td>
+              </tr>
+              <tr>
+                <td>23435643642</td>
+                <td>4/06/2020</td>
+                <td>Foundation walls</td>
+                <td>Remove</td>
+                <td>26</td>
+                <td>vadim@vadakconsulting.com</td>
+                <td><button class="change__history-btn">UNDO</button></td>
+              </tr>
+              <tr>
+                <td>23435643642</td>
+                <td>4/06/2020</td>
+                <td>Foundation walls</td>
+                <td>Remove</td>
+                <td>26</td>
+                <td>vadim@vadakconsulting.com</td>
+                <td><button class="change__history-btn">UNDO</button></td>
+              </tr>
+              <tr>
+                <td>23435643642</td>
+                <td>4/06/2020</td>
+                <td>Foundation walls</td>
+                <td>Remove</td>
+                <td>26</td>
+                <td>vadim@vadakconsulting.com</td>
+                <td><button class="change__history-btn">UNDO</button></td>
+              </tr>
+              <tr>
+                <td>23435643642</td>
+                <td>4/06/2020</td>
+                <td>Foundation walls</td>
+                <td>Remove</td>
+                <td>26</td>
+                <td>vadim@vadakconsulting.com</td>
+                <td><button class="change__history-btn">UNDO</button></td>
+              </tr>
+              <tr>
+                <td>23435643642</td>
+                <td>4/06/2020</td>
+                <td>Foundation walls</td>
+                <td>Remove</td>
+                <td>26</td>
+                <td>vadim@vadakconsulting.com</td>
+                <td><button class="change__history-btn">UNDO</button></td>
+              </tr>
+              <tr>
+                <td>23435643642</td>
+                <td>4/06/2020</td>
+                <td>Foundation walls</td>
+                <td>Remove</td>
+                <td>26</td>
+                <td>vadim@vadakconsulting.com</td>
+                <td><button class="change__history-btn">UNDO</button></td>
+              </tr>
+              <tr>
+                <td>23435643642</td>
+                <td>4/06/2020</td>
+                <td>Foundation walls</td>
+                <td>Remove</td>
+                <td>26</td>
+                <td>vadim@vadakconsulting.com</td>
+                <td><button class="change__history-btn">UNDO</button></td>
+              </tr>
+              <tr>
+                <td>23435643642</td>
+                <td>4/06/2020</td>
+                <td>Foundation walls</td>
+                <td>Remove</td>
+                <td>26</td>
+                <td>vadim@vadakconsulting.com</td>
+                <td><button class="change__history-btn">UNDO</button></td>
+              </tr>
+              <tr>
+                <td>23435643642</td>
+                <td>4/06/2020</td>
+                <td>Foundation walls</td>
+                <td>Remove</td>
+                <td>26</td>
+                <td>vadim@vadakconsulting.com</td>
+                <td><button class="change__history-btn">UNDO</button></td>
+              </tr>
+            </table>
+            <div class="row justify-content-center sqa__viewMore-btn">
+              <button class="sqa__btn"><u class="mt-1">VIEW MORE</u></button>
             </div>
           </div>
         </div>
