@@ -107,7 +107,7 @@ th:nth-child(6) {
   color: white;
 }
 th:nth-child(7) {
-  background-image: linear-gradient(45deg, #0e1c1d 50%, #47a07b);
+  background-image: linear-gradient(45deg, #0e1c1d 20%, #47a07b 60%);
   text-align: center;
   color: white;
 }
