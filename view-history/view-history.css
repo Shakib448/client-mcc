@@ -184,7 +184,7 @@ span#basic-addon3 {
   z-index: 999;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1199.98px) {
   table.sqa__table-data {
     width: 1000px !important;
   }
