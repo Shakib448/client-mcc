@@ -94,6 +94,14 @@ span.sqa__navigation-item-sidebar-span {
   top: 110px;
 }
 
+.input-group-text {
+  background: transparent;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #47a07b;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }

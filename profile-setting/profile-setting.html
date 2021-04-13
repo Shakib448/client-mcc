@@ -12,11 +12,12 @@
     />
     <link
       rel="icon"
-      href="assets/main-logo@2x.png"
+      href="../assets/main-logo@2x.png"
       type="image/gif"
       sizes="16x16"
     />
     <link rel="stylesheet" href="../global/style.css" />
+    <link rel="stylesheet" href="profile-setting.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
@@ -26,7 +27,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <title>Billing Information</title>
+    <title>Profile Setting</title>
   </head>
   <body>
     <!-- Mobile navigation -->
@@ -56,7 +57,7 @@
                 <a
                   class="nav-link sqa__navigation-item"
                   aria-current="page"
-                  href="account/account.html"
+                  href="../account/account.html"
                 >
                   <div class="d-flex align-items-center">
                     <img
@@ -83,7 +84,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link sqa__navigation-item"
-                  href="profile-setting/profile-setting.html"
+                  href="profile-setting.html"
                 >
                   <div class="d-flex align-items-center">
                     <img
@@ -115,7 +116,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link sqa__navigation-item"
-                  href="view-history/view-history.html"
+                  href="../view-history/view-history.html"
                 >
                   <div class="d-flex align-items-center">
                     <img
@@ -149,7 +150,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link sqa__navigation-item"
-                  href="change-plan/change-plan.html"
+                  href="../change-plan/change-plan.html"
                 >
                   <div class="d-flex align-items-center">
                     <img
@@ -166,7 +167,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link sqa__navigation-item"
-                  href="billing/billing.html"
+                  href="../billing/billing.html"
                 >
                   <div class="d-flex align-items-center">
                     <img
@@ -218,7 +219,7 @@
               <a
                 class="nav-link sqa__navigation-item-sidebar"
                 aria-current="page"
-                href="account/account.html"
+                href="../account/account.html"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -247,7 +248,7 @@
             <li class="nav-item mb-3">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
-                href="profile-setting/profile-setting.html"
+                href="profile-setting.html"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -279,7 +280,7 @@
             <li class="nav-item mb-3">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
-                href="view-history/view-history.html"
+                href="../view-history/view-history.html"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -296,7 +297,7 @@
             <li class="nav-item mb-3">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
-                href="invoice/invoice.html"
+                href="../invoice/invoice.html"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -314,7 +315,7 @@
             <li class="nav-item mb-3">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
-                href="change-plan/change-plan.html"
+                href="../change-plan/change-plan.html"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -332,7 +333,7 @@
             <li class="nav-item mb-3">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
-                href="billing/billing.html"
+                href="../billing/billing.html"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -369,10 +370,10 @@
       <div class="contents">
         <div class="breadcrumb__all">
           <div class="breadcrumb__contnet">
-            <h4>Billing Information</h4>
+            <h4>Profile Setting</h4>
             <h5>
               Home/Account/
-              <span class="breadcrumb__active">Billings Information</span>
+              <span class="breadcrumb__active">Customer Details</span>
             </h5>
           </div>
           <div class="breadcrumb__notification">
@@ -380,8 +381,98 @@
           </div>
         </div>
         <div class="main__content-area">
-          Today is completed View Change History, Change Plan, Invoices and Mcc
-          Page. Thanks Muktadir..
+          <div class="profile__setting-main-area">
+            <div class="col-md-8 col-sm-12 col Setting__form">
+              <div class="form__header">
+                <div class="Setting__img mb-2">
+                  <img src="../assets/Group 55.png" />
+                </div>
+                <div class="Setting__info">
+                  <h4 class="m-0">Setting For Waterproofing</h4>
+                </div>
+              </div>
+              <div class="form__body">
+                <div class="profile__form-category d-flex align-items-center">
+                  <h6><u class="mt-1">Categories</u></h6>
+                  <span class="arrow-icon">></span>
+                  <h6><u class="mt-1">Business</u></h6>
+                </div>
+                <div class="mb-3 mt-3">
+                  <label for="email" class="form-label"
+                    >SEND EMAIL FOR SPEND OVER :</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control pt-3 pb-3"
+                    id="email"
+                    placeholder="your@gmail.com"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="STATE" class="form-label">STATE :</label>
+                  <select
+                    class="form-select pt-3 pb-3 setting__select"
+                    aria-label="Default select"
+                  >
+                    <option selected>illinios</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <h1>Client Question</h1>
+                </div>
+                <div class="mb-3">
+                  <label for="Zip" class="form-label"
+                    >WHAT ZIP CODE IS YOUR BUSINESS LOCATED IN?</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control pt-3 pb-3"
+                    id="Zip"
+                    placeholder="11331"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="Address1" class="form-label"
+                    >HOW MANY MILES WOULD YOUR CUSTOMER DRIVE TO SEE YOU?</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control pt-3 pb-3"
+                    id="Address1"
+                    placeholder="100miles"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="adverties" class="form-label"
+                    >DO YOU WANT TO ADVERTISE ON COMPETITORS NAME?
+                  </label>
+                  <select
+                    class="form-select pt-3 pb-3 setting__select"
+                    aria-label="Default select"
+                  >
+                    <option selected>No</option>
+                    <option value="1">Yes</option>
+                  </select>
+                </div>
+                <div class="col pt-2 pb-2 d-flex justify-content-end">
+                  <button
+                    type="submit"
+                    class="Setting__btn d-flex align-items-center"
+                  >
+                    <img
+                      src="../assets/Icon feather-save.png"
+                      alt=".."
+                      class="setting__btn-img"
+                    />
+                    SAVE
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

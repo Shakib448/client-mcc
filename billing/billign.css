@@ -4,14 +4,6 @@
   background: white;
 }
 
-.form-control:focus {
-  box-shadow: none;
-}
-
-.input-group-text {
-  background: transparent;
-}
-
 .billing__card-area {
   position: absolute;
   width: 94%;
