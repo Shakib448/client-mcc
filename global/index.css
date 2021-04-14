@@ -139,6 +139,9 @@ th.sqa__customers {
   padding: 20px 0;
   border-radius: 25px;
   margin: 20px 0px;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 table.sqa__table-data {
@@ -227,10 +230,6 @@ td:nth-child(4) {
 
 tr:nth-child(even) {
   background-color: #dddddd;
-}
-
-.table-responsive.sqa__table::-webkit-scrollbar {
-  display: none;
 }
 
 .dashboard__calender-icon {
