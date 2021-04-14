@@ -165,24 +165,9 @@ input.form-control.view__history-search.p-2 {
   outline: 0;
   box-shadow: none;
 }
-.sqa__customer-typo {
-  margin: 0;
-  background: none !important;
-  color: #2db159 !important;
-}
 
 .view__search__form {
   position: relative;
-}
-span#basic-addon3 {
-  background: transparent;
-  border-left: 0;
-  border-color: transparent;
-  position: absolute;
-  top: 5px;
-  right: 0;
-  cursor: pointer;
-  z-index: 999;
 }
 
 @media (max-width: 1199.98px) {

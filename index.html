@@ -17,6 +17,7 @@
       sizes="16x16"
     />
     <link rel="stylesheet" href="../global/style.css" />
+    <link rel="stylesheet" href="../global/index.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
@@ -26,14 +27,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <title>Billing Information</title>
+    <title>Welcome To Dashboard</title>
   </head>
   <body>
     <!-- Mobile navigation -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light mobile__nav">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
             <img src="../assets/main-logo.png" alt="SQA" class="img-fluid" />
           </a>
           <button
@@ -61,7 +62,7 @@
                   <div class="d-flex align-items-center">
                     <img
                       src="../assets/Icon material-account-balance.png"
-                      alt="Account"
+                      alt="dashboard"
                       width="20px"
                     />
                     <span class="sqa__navigation-item-span"> Account</span>
@@ -69,7 +70,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link sqa__navigation-item" href="#">
+                <a class="nav-link sqa__navigation-item" href="index.html">
                   <div class="d-flex align-items-center">
                     <img
                       src="../assets/Group 5828@2x.png"
@@ -223,7 +224,7 @@
                 <div class="d-flex align-items-center">
                   <img
                     src="../assets/Icon material-account-balance.png"
-                    alt="Account"
+                    alt="dashboard"
                     width="20px"
                   />
                   <span class="sqa__navigation-item-sidebar-span">Account</span>
@@ -231,7 +232,10 @@
               </a>
             </li>
             <li class="nav-item mb-3">
-              <a class="nav-link sqa__navigation-item-sidebar" href="#">
+              <a
+                class="nav-link sqa__navigation-item-sidebar"
+                href="index.html"
+              >
                 <div class="d-flex align-items-center">
                   <img
                     src="../assets/Group 5828@2x.png"
@@ -369,10 +373,10 @@
       <div class="contents">
         <div class="breadcrumb__all">
           <div class="breadcrumb__contnet">
-            <h4>Billing Information</h4>
+            <h4>Welcome to Dashboard</h4>
             <h5>
-              Home/Account/
-              <span class="breadcrumb__active">Billings Information</span>
+              Home/dashboard/
+              <span class="breadcrumb__active">1 Smile Dental</span>
             </h5>
           </div>
           <div class="breadcrumb__notification">
@@ -380,8 +384,300 @@
           </div>
         </div>
         <div class="main__content-area">
-          Today is completed View Change History, Change Plan, Invoices and Mcc
-          Page. Thanks Muktadir..
+          <div class="dashboard__area">
+            <div class="change__plan__packages">
+              <div class="container dashboard__main-package-area">
+                <div class="row">
+                  <div class="col-md-3 mt-2 mb-2">
+                    <div class="card">
+                      <div class="dashboard__card-img">
+                        <img
+                          src="../assets/bg.png"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="dashboard__status">
+                          <img src="../assets/Group 5919.png" alt="..." />
+                          <div class="package__price">
+                            <div class="package__price__list">
+                              <span class="price">$7347.00</span>
+                            </div>
+                          </div>
+                          <div class="package__name text-light">
+                            NEGATIVES KEYWORDS WASTED SPEND
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mt-2 mb-2">
+                    <div class="card">
+                      <div class="dashboard__card-img">
+                        <img
+                          src="../assets/bg.png"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="dashboard__status">
+                          <img src="../assets/Group 5920.png" alt="..." />
+                          <div class="package__price">
+                            <div class="package__price__list">
+                              <span class="price">908</span>
+                            </div>
+                          </div>
+                          <div class="package__name text-light">
+                            SEARCH QUERIES ANALYZED
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mt-2 mb-2">
+                    <div class="card">
+                      <div class="dashboard__card-img">
+                        <img
+                          src="../assets/bg.png"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="dashboard__status">
+                          <img src="../assets/Group 5921.png" alt="..." />
+
+                          <div class="package__price">
+                            <div class="package__price__list">
+                              <span class="price">17</span>
+                            </div>
+                          </div>
+                          <div class="package__name text-light">
+                            NEGATIVE KEYWORDS RECOMMENDED
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3 mt-2 mb-2">
+                    <div class="card">
+                      <div class="dashboard__card-img">
+                        <img
+                          src="../assets/bg.png"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="dashboard__status">
+                          <img src="../assets/Group 5922.png" alt="..." />
+
+                          <div class="package__price">
+                            <div class="package__price__list">
+                              <span class="price">12.8</span>
+                            </div>
+                          </div>
+                          <div class="package__name text-light">
+                            HOURS SAVED
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Table -->
+          <div class="table-responsive sqa__table">
+            <div class="dashboard__content row">
+              <div class="col-md-1 text-end dashboard__calender-icon">
+                <img src="assets/calender.png" alt=".." />
+              </div>
+              <div class="col-md-5">
+                <div class="input-group mb-3 dashboard__search__form">
+                  <input
+                    type="text"
+                    class="form-control dashboard-search p-2"
+                    aria-label="Search"
+                    aria-describedby="basic-addon3"
+                    placeholder="Search..."
+                  />
+                  <span class="input-group-text" id="basic-addon3">
+                    <img src="../assets/Group 5787.png" alt="search" />
+                  </span>
+                </div>
+              </div>
+              <div class="col-md-3 dashboard__sm-btn">
+                <button class="dashboard__global__btn">
+                  <i class="fas fa-plus text-light"></i> ADD NEGATIVE KEYWORD
+                  EXACT
+                </button>
+              </div>
+              <div class="col-md-3 dashboard__sm-btn">
+                <button class="dashboard__global__btn">KEYWORD IS OK</button>
+              </div>
+            </div>
+            <table class="sqa__table-data">
+              <tr>
+                <th>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1">
+                      ALL</label
+                    >
+                  </div>
+                </th>
+                <th>DATE <i class="fas fa-chevron-down text-light"></i></th>
+                <th>
+                  NEGATIVE KEYWORD
+                  <i class="fas fa-chevron-down text-light"></i>
+                </th>
+                <th>SPEND <i class="fas fa-chevron-down text-light"></i></th>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+            </table>
+            <div class="row justify-content-center sqa__viewMore-btn">
+              <button class="sqa__btn"><u class="mt-1">VIEW MORE</u></button>
+            </div>
+          </div>
         </div>
       </div>
     </div>

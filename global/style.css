@@ -36,7 +36,7 @@ h6 {
   right: 0;
   position: fixed;
   width: 80%;
-  z-index: 1;
+  z-index: 1000;
 }
 .sidebar__container {
   display: flex;
@@ -92,6 +92,39 @@ span.sqa__navigation-item-sidebar-span {
   overflow: hidden;
   left: 19.5vw;
   top: 110px;
+}
+.sqa__customer-typo {
+  margin: 0;
+  background: none !important;
+  color: #2db159 !important;
+}
+
+.form-check-input[type="checkbox"] {
+  border-radius: 4.25em;
+  font-size: 20px;
+  cursor: pointer;
+}
+label.form-check-label {
+  margin-top: 3.5px;
+}
+.form-check-input:checked {
+  background-color: #47a07b !important;
+  border-color: #47a07b !important;
+  box-shadow: none !important;
+}
+.form-check-input:focus {
+  box-shadow: none !important;
+}
+
+span#basic-addon3 {
+  background: transparent;
+  border-left: 0;
+  border-color: transparent;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  cursor: pointer;
+  z-index: 999;
 }
 
 .input-group-text {

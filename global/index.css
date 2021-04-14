@@ -1,4 +1,4 @@
-.account__area {
+.dashboard__area {
   background: white;
   border-radius: 20px;
   padding: 20px;
@@ -8,7 +8,7 @@
   border: none;
 }
 
-.account__card-img {
+.dashboard__card-img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,11 +27,43 @@
   border-radius: 5px;
 }
 
-.account__card-img {
+.dashboard__card-img {
   position: relative;
 }
 
-.account__status {
+.dashboard__content {
+  padding: 15px 10px 0px 10px;
+  display: flex;
+  align-items: baseline;
+}
+
+.dashboard-search {
+  border-radius: 25px !important;
+}
+
+input.form-control.dashboard-search.p-2 {
+  padding: 14px !important;
+}
+.dashboard-search:focus {
+  border-color: #2db159;
+  outline: 0;
+  box-shadow: none;
+}
+
+.dashboard__global__btn {
+  padding: 10px 40px;
+  border-radius: 35px;
+  background-image: linear-gradient(45deg, #47a07b, #285a44);
+  color: white;
+  border: none;
+  font-size: 14px;
+}
+.dashboard__global__btn:focus {
+  outline: 0;
+  border: none;
+}
+
+.dashboard__status {
   position: absolute;
   left: 0;
   right: 0;
@@ -107,6 +139,9 @@ th.sqa__customers {
   padding: 20px 0;
   border-radius: 25px;
   margin: 20px 0px;
+  height: 500px;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 table.sqa__table-data {
@@ -197,21 +232,29 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.table-responsive.sqa__table::-webkit-scrollbar {
-  display: none;
+.dashboard__calender-icon {
+  cursor: pointer;
 }
 
 @media (max-width: 767.98px) {
-  .account__area {
+  .dashboard__area {
     height: 100%;
   }
   table.sqa__table-data {
     width: 800px;
   }
-  .table-responsive.sqa__table::-webkit-scrollbar {
-    display: none !important;
-  }
+
   .sqa__viewMore-btn {
     width: 800px;
+  }
+  .dashboard__sm-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .dashboard__calender-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
   }
 }
