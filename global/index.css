@@ -31,6 +31,25 @@
   position: relative;
 }
 
+.dashboard__content {
+  padding: 25px 10px 0px 10px;
+  display: flex;
+  align-items: baseline;
+}
+
+.dashboard-search {
+  border-radius: 25px !important;
+}
+
+input.form-control.dashboard-search.p-2 {
+  padding: 14px !important;
+}
+.dashboard-search:focus {
+  border-color: #2db159;
+  outline: 0;
+  box-shadow: none;
+}
+
 .dashboard__status {
   position: absolute;
   left: 0;

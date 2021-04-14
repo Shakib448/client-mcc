@@ -93,6 +93,22 @@ span.sqa__navigation-item-sidebar-span {
   left: 19.5vw;
   top: 110px;
 }
+.sqa__customer-typo {
+  margin: 0;
+  background: none !important;
+  color: #2db159 !important;
+}
+
+span#basic-addon3 {
+  background: transparent;
+  border-left: 0;
+  border-color: transparent;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  cursor: pointer;
+  z-index: 999;
+}
 
 .input-group-text {
   background: transparent;
