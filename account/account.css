@@ -197,6 +197,10 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+.table-responsive.sqa__table::-webkit-scrollbar {
+  display: none;
+}
+
 @media (max-width: 767.98px) {
   .account__area {
     height: 100%;
