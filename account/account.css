@@ -208,9 +208,7 @@ tr:nth-child(even) {
   table.sqa__table-data {
     width: 800px;
   }
-  .table-responsive.sqa__table::-webkit-scrollbar {
-    display: none !important;
-  }
+
   .sqa__viewMore-btn {
     width: 800px;
   }
