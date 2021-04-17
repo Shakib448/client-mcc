@@ -158,6 +158,10 @@ img.card-img-top {
   border-radius: 10px;
 }
 
+button.dashboard__global__btn {
+  width: 100%;
+}
+
 @media (max-width: 991.98px) {
   .sidebar {
     display: none;
