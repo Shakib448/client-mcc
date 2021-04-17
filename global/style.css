@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   background: #e7f4ed;
   overflow-x: hidden;
 }
@@ -13,8 +13,8 @@ h6 {
   margin: 0;
 }
 
-.sidebar__logo{
-  width: 200px ;
+.sidebar__logo {
+  width: 200px;
 }
 
 .mobile__nav {
@@ -162,6 +162,21 @@ button.dashboard__global__btn {
   width: 100%;
 }
 
+.d-flex.align-items-center {
+  margin-left: 29px;
+}
+
+li.nav-item.mb-3 {
+  font-size: 20px;
+}
+
+span.sqa__navigation-item-sidebar-span {
+  margin-left: 20px;
+}
+a.nav-link.sqa__navigation-item-sidebar {
+  padding: 14px;
+}
+
 @media (max-width: 991.98px) {
   .sidebar {
     display: none;
@@ -188,7 +203,6 @@ button.dashboard__global__btn {
     transition: 0.5s;
   }
 }
-
 
 @media (min-width: 1400px) {
   .container {
