@@ -13,6 +13,10 @@ h6 {
   margin: 0;
 }
 
+.sidebar__logo{
+  width: 200px ;
+}
+
 .mobile__nav {
   display: none;
   background: #0e1c1d;
