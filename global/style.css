@@ -169,6 +169,9 @@ button.dashboard__global__btn {
 li.nav-item.mb-3 {
   font-size: 20px;
 }
+.mobile__logo{
+  width: 150px;
+}
 
 span.sqa__navigation-item-sidebar-span {
   margin-left: 20px;
