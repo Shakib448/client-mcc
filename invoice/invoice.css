@@ -1,8 +1,3 @@
-.sqa__table {
-  margin: 15px 30px;
-  padding: 15px 30px;
-}
-
 .sqa__table-head {
   background-image: -webkit-gradient(
     linear,
@@ -109,10 +104,11 @@ td:nth-child(4) {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
-.invoice__table {
+.table-responsive.sqa__table {
   background: #fff;
+  height: 500px;
 }
-.invoice__table::-webkit-scrollbar {
+.table-responsive.sqa__table::-webkit-scrollbar {
   display: none;
 }
 
@@ -123,7 +119,7 @@ tr:nth-child(even) {
   .sqa__viewMore-btn {
     width: 800px;
   }
-  .invoice__table {
+  .table-responsive.sqa__table {
     overflow: scroll;
   }
 }
