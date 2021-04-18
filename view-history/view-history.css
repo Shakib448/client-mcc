@@ -1,8 +1,3 @@
-.sqa__table {
-  margin: 15px 30px;
-  padding: 15px 30px;
-}
-
 .sqa__table-head {
   background-image: -webkit-gradient(
     linear,
@@ -144,7 +139,10 @@ tr:nth-child(even) {
 .view__history__table {
   background: #fff;
 }
-.view__history__table::-webkit-scrollbar {
+.table-responsive.sqa__table {
+  height: 500px;
+}
+.table-responsive.sqa__table::-webkit-scrollbar {
   display: none;
 }
 .view__history__content {
