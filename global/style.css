@@ -62,12 +62,6 @@ h6 {
   border-radius: 0px;
   transition: 0.5s;
 } */
-.nav-item mb-3:hover {
-  background-color: #2e2e2e;
-  border-left: 4px solid #1aae55;
-  border-radius: 0px;
-  transition: 0.5s;
-}
 
 @media (max-width: 991.98px) {
   .sidebar {
@@ -217,15 +211,6 @@ a.nav-link.sqa__navigation-item-sidebar {
   border-radius: 0px;
   transition: 0.5s;
 }
-
-/* @media (max-width: 767.98px) {
-  .nav-item a.nav-link.sqa__navigation-item:hover {
-    background-color: #2e2e2e;
-    border-left: 4px solid #1aae55;
-    border-radius: 0px;
-    transition: 0.5s;
-  }
-} */
 
 @media (max-width: 1399.98px) {
   .sidebar__logo {
