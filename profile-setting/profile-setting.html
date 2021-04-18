@@ -249,7 +249,7 @@
                 </div>
               </a>
             </li>
-            <li class="nav-item mb-3">
+            <li class="nav-item mb-3" id="profile-setting">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
                 href="profile-setting.html"
@@ -497,5 +497,13 @@
       integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
       crossorigin="anonymous"
     ></script>
+    <script>
+      if (
+        window.location.pathname === "/profile-setting/profile-setting.html"
+      ) {
+        document.getElementById("profile-setting").className =
+          "nav-item mb-3 active";
+      }
+    </script>
   </body>
 </html>
