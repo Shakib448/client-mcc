@@ -169,7 +169,7 @@ button.dashboard__global__btn {
 li.nav-item.mb-3 {
   font-size: 20px;
 }
-.mobile__logo{
+.mobile__logo {
   width: 150px;
 }
 
@@ -196,6 +196,14 @@ a.nav-link.sqa__navigation-item-sidebar {
     left: 0;
     width: 98vw;
   }
+  .sidebar__logo {
+    width: 80px !important;
+  }
+
+  li.nav-item.mb-3 {
+    margin: 0 !important;
+    font-size: medium;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -204,6 +212,17 @@ a.nav-link.sqa__navigation-item-sidebar {
     border-left: 4px solid #1aae55;
     border-radius: 0px;
     transition: 0.5s;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .sidebar__logo {
+    width: 120px !important;
+  }
+
+  li.nav-item.mb-3 {
+    margin: 0 !important;
+    font-size: medium;
   }
 }
 
