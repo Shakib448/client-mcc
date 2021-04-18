@@ -32,7 +32,11 @@
       <nav class="navbar navbar-expand-lg navbar-light mobile__nav">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">
-            <img src="../assets/main-logo@2x.png" alt="SQA" class="img-fluid mobile__logo" />
+            <img
+              src="../assets/main-logo@2x.png"
+              alt="SQA"
+              class="img-fluid mobile__logo"
+            />
           </a>
           <button
             class="navbar-toggler"
@@ -291,7 +295,7 @@
                 </div>
               </a>
             </li>
-            <li class="nav-item mb-3">
+            <li class="nav-item mb-3" id="invoice">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
                 href="invoice.html"
@@ -467,5 +471,10 @@
       integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
       crossorigin="anonymous"
     ></script>
+    <script>
+      if (window.location.pathname === "/invoice/invoice.html") {
+        document.getElementById("invoice").className = "nav-item mb-3 active";
+      }
+    </script>
   </body>
 </html>

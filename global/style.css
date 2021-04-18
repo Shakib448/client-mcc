@@ -205,6 +205,12 @@ a.nav-link.sqa__navigation-item-sidebar {
     font-size: medium;
   }
 }
+.active {
+  background-color: #2e2e2e;
+  border-left: 4px solid #1aae55;
+  border-radius: 0px;
+  transition: 0.5s;
+}
 
 @media (max-width: 767.98px) {
   .nav-item a.nav-link.sqa__navigation-item:hover {
