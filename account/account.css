@@ -101,7 +101,9 @@ th.sqa__customers {
 .sqa__customer-typo {
   margin: 0;
 }
-
+.account__main-img {
+  height: 266px !important;
+}
 .table-responsive.sqa__table {
   background: white;
   padding: 20px 0;
