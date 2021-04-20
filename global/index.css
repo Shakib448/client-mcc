@@ -1,11 +1,15 @@
 .dashboard__area {
   background: white;
   border-radius: 20px;
-  padding: 20px;
 }
 
 .card {
   border: none;
+}
+
+.dashboard__main-img {
+  width: 100% !important;
+  height: 114px !important;
 }
 
 .dashboard__card-img {
@@ -68,6 +72,15 @@ input.form-control.dashboard-search.p-2 {
   left: 0;
   right: 0;
   text-align: center;
+}
+.dashboard__status-img {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard__status-result-area {
+  text-align: left;
+  padding: 0 5px 0 10px;
 }
 
 img.card-img-top {
