@@ -102,7 +102,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link sqa__navigation-item"
-                  href="top-navigate-keyword/top-navigate-keyword.html"
+                  href="top-navigate-keyword.html"
                 >
                   <div class="d-flex align-items-center">
                     <img
@@ -269,10 +269,10 @@
                 </div>
               </a>
             </li>
-            <li class="nav-item mb-3">
+            <li class="nav-item mb-3" id="top-navigate">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
-                href="/top-navigate-keyword/top-navigate-keyword.html"
+                href="top-navigate-keyword.html"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -522,7 +522,7 @@
           <!-- Table -->
           <div class="dashboard__content row">
             <div class="col-md-1 text-center dashboard__calender-icon">
-              <img src="assets/calender.png" alt=".." />
+              <img src="../assets/calender.png" alt=".." />
             </div>
             <div class="col-md-5 dashboard__search">
               <div class="input-group mb-3 dashboard__search__form">
@@ -733,10 +733,11 @@
     ></script>
     <script>
       if (
-        window.location.pathname === "/index.html" ||
-        window.location.pathname === "/"
+        window.location.pathname ===
+        "/top-navigate-keyword/top-navigate-keyword.html"
       ) {
-        document.getElementById("dashboard").className = "nav-item mb-3 active";
+        document.getElementById("top-navigate").className =
+          "nav-item mb-3 active";
       }
     </script>
   </body>
