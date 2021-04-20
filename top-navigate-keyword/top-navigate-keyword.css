@@ -101,7 +101,7 @@ tr:nth-child(even) {
 }
 .table-responsive.sqa__table.top-navigate {
   background: #fff;
-  height: auto !important;
+  height: 400px !important;
 }
 button.dashboard__global__btn.sqa__add-btns {
   width: 40%;
