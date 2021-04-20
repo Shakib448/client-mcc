@@ -12,26 +12,32 @@
     />
     <link
       rel="icon"
-      href="assets/main-logo@2x.png"
+      href="../assets/main-logo@2x.png"
       type="image/gif"
       sizes="16x16"
     />
     <link rel="stylesheet" href="../global/style.css" />
+    <link rel="stylesheet" href="../global/index.css" />
+    <link rel="stylesheet" href="top-navigate-keyword.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <title>Billing Information</title>
+    <title>Top Navigate Keywords</title>
   </head>
   <body>
     <!-- Mobile navigation -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-light mobile__nav">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="../assets/main-logo.png" alt="SQA" class="img-fluid" />
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="../assets/main-logo@2x.png"
+              alt="SQA"
+              class="img-fluid mobile__logo"
+            />
           </a>
           <button
             class="navbar-toggler"
@@ -53,12 +59,12 @@
                 <a
                   class="nav-link sqa__navigation-item"
                   aria-current="page"
-                  href="account/account.html"
+                  href="../account/account.html"
                 >
                   <div class="d-flex align-items-center">
                     <img
                       src="../assets/Icon material-account-balance.png"
-                      alt="Account"
+                      alt="dashboard"
                       width="20px"
                     />
                     <span class="sqa__navigation-item-span"> Account</span>
@@ -66,7 +72,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link sqa__navigation-item" href="#">
+                <a class="nav-link sqa__navigation-item" href="../index.html">
                   <div class="d-flex align-items-center">
                     <img
                       src="../assets/Group 5828@2x.png"
@@ -80,7 +86,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link sqa__navigation-item"
-                  href="profile-setting/profile-setting.html"
+                  href="../profile-setting/profile-setting.html"
                 >
                   <div class="d-flex align-items-center">
                     <img
@@ -95,7 +101,10 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link sqa__navigation-item" href="#">
+                <a
+                  class="nav-link sqa__navigation-item"
+                  href="top-navigate-keyword.html"
+                >
                   <div class="d-flex align-items-center">
                     <img
                       src="../assets/Scroll Group 5.png"
@@ -112,7 +121,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link sqa__navigation-item"
-                  href="view-history/view-history.html"
+                  href="../view-history/view-history.html"
                 >
                   <div class="d-flex align-items-center">
                     <img
@@ -129,7 +138,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link sqa__navigation-item"
-                  href="invoice/invoice.html"
+                  href="../invoice/invoice.html"
                 >
                   <div class="d-flex align-items-center">
                     <img
@@ -146,7 +155,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link sqa__navigation-item"
-                  href="change-plan/change-plan.html"
+                  href="../change-plan/change-plan.html"
                 >
                   <div class="d-flex align-items-center">
                     <img
@@ -163,7 +172,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link sqa__navigation-item"
-                  href="billing/billing.html"
+                  href="../billing/billing.html"
                 >
                   <div class="d-flex align-items-center">
                     <img
@@ -206,7 +215,7 @@
               <img
                 src="../assets/main-logo@2x.png"
                 alt="SQA"
-                class="img-fluid mobile__logo"
+                class="img-fluid sidebar__logo"
               />
             </a>
           </div>
@@ -215,20 +224,23 @@
               <a
                 class="nav-link sqa__navigation-item-sidebar"
                 aria-current="page"
-                href="account/account.html"
+                href="../account/account.html"
               >
                 <div class="d-flex align-items-center">
                   <img
                     src="../assets/Icon material-account-balance.png"
-                    alt="Account"
+                    alt="dashboard"
                     width="20px"
                   />
                   <span class="sqa__navigation-item-sidebar-span">Account</span>
                 </div>
               </a>
             </li>
-            <li class="nav-item mb-3">
-              <a class="nav-link sqa__navigation-item-sidebar" href="#">
+            <li class="nav-item mb-3" id="dashboard">
+              <a
+                class="nav-link sqa__navigation-item-sidebar"
+                href="../index.html"
+              >
                 <div class="d-flex align-items-center">
                   <img
                     src="../assets/Group 5828@2x.png"
@@ -244,7 +256,7 @@
             <li class="nav-item mb-3">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
-                href="profile-setting/profile-setting.html"
+                href="../profile-setting/profile-setting.html"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -258,8 +270,11 @@
                 </div>
               </a>
             </li>
-            <li class="nav-item mb-3">
-              <a class="nav-link sqa__navigation-item-sidebar" href="#">
+            <li class="nav-item mb-3" id="top-navigate">
+              <a
+                class="nav-link sqa__navigation-item-sidebar"
+                href="top-navigate-keyword.html"
+              >
                 <div class="d-flex align-items-center">
                   <img
                     src="../assets/Scroll Group 5.png"
@@ -276,7 +291,7 @@
             <li class="nav-item mb-3">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
-                href="view-history/view-history.html"
+                href="../view-history/view-history.html"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -293,7 +308,7 @@
             <li class="nav-item mb-3">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
-                href="invoice/invoice.html"
+                href="../invoice/invoice.html"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -311,7 +326,7 @@
             <li class="nav-item mb-3">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
-                href="change-plan/change-plan.html"
+                href="../change-plan/change-plan.html"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -329,7 +344,7 @@
             <li class="nav-item mb-3">
               <a
                 class="nav-link sqa__navigation-item-sidebar"
-                href="billing/billing.html"
+                href="../billing/billing.html"
               >
                 <div class="d-flex align-items-center">
                   <img
@@ -366,10 +381,10 @@
       <div class="contents">
         <div class="breadcrumb__all">
           <div class="breadcrumb__contnet">
-            <h4>Billing Information</h4>
+            <h4>Top Navigate Keywords</h4>
             <h5>
-              Home/Account/
-              <span class="breadcrumb__active">Billings Information</span>
+              Home/dashboard/
+              <span class="breadcrumb__active">Top Navigate Keywords</span>
             </h5>
           </div>
           <div class="breadcrumb__notification">
@@ -377,8 +392,242 @@
           </div>
         </div>
         <div class="main__content-area">
-          Today is completed View Change History, Change Plan, Invoices and Mcc
-          Page. Thanks Muktadir..
+          <div class="top__navigate__area">
+            <div class="change__plan__packages">
+              <div class="table-responsive sqa__table top-navigate">
+                <table class="sqa__table-data top__navigate">
+                  <tr>
+                    <th>Top Keywords</th>
+                    <th>Count</th>
+                  </tr>
+
+                  <tr>
+                    <td>Aide</td>
+                    <td>6</td>
+                  </tr>
+                  <tr>
+                    <td>Salary</td>
+                    <td>4</td>
+                  </tr>
+                  <tr>
+                    <td>Colleges</td>
+                    <td>4</td>
+                  </tr>
+                  <tr>
+                    <td>Psychical</td>
+                    <td>4</td>
+                  </tr>
+                  <tr>
+                    <td>Remar</td>
+                    <td>3</td>
+                  </tr>
+                </table>
+                <div class="row justify-content-center sqa__add-btn">
+                  <button class="dashboard__global__btn sqa__add-btns">
+                    <i class="fas fa-plus text-light"></i> ADD NEGATIVE KEYWORD
+                    EXACT
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Table -->
+          <div class="dashboard__content row">
+            <div class="col-md-1 text-center dashboard__calender-icon">
+              <img src="../assets/calender.png" alt=".." />
+            </div>
+            <div class="col-md-5 dashboard__search">
+              <div class="input-group mb-3 dashboard__search__form">
+                <input
+                  type="text"
+                  class="form-control dashboard-search p-2"
+                  aria-label="Search"
+                  aria-describedby="basic-addon3"
+                  placeholder="Search..."
+                />
+                <span class="input-group-text" id="basic-addon3">
+                  <img src="../assets/Group 5787.png" alt="search" />
+                </span>
+              </div>
+            </div>
+
+            <div class="col-md-4 text-center dashboard__sm-btn">
+              <button class="dashboard__global__btn">
+                <i class="fas fa-plus text-light"></i> ADD NEGATIVE KEYWORD
+                EXACT
+              </button>
+            </div>
+            <div class="col-md-2 dashboard__sm-btn">
+              <button class="dashboard__global__btn">KEYWORD IS OK</button>
+            </div>
+          </div>
+          <div class="table-responsive sqa__table">
+            <table class="sqa__table-data">
+              <tr>
+                <th>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1">
+                      ALL</label
+                    >
+                  </div>
+                </th>
+                <th>DATE <i class="fas fa-chevron-down text-light"></i></th>
+                <th>
+                  NEGATIVE KEYWORD
+                  <i class="fas fa-chevron-down text-light"></i>
+                </th>
+                <th>SPEND <i class="fas fa-chevron-down text-light"></i></th>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                  </div>
+                </td>
+                <td>3/8/2020</td>
+                <td>Best Teeth Whitening</td>
+                <td>$107.00</td>
+              </tr>
+            </table>
+            <div class="row justify-content-center sqa__viewMore-btn">
+              <button class="sqa__btn"><u class="mt-1">VIEW MORE</u></button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -394,5 +643,14 @@
       integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
       crossorigin="anonymous"
     ></script>
+    <script>
+      if (
+        window.location.pathname ===
+        "/top-navigate-keyword/top-navigate-keyword.html"
+      ) {
+        document.getElementById("top-navigate").className =
+          "nav-item mb-3 active";
+      }
+    </script>
   </body>
 </html>

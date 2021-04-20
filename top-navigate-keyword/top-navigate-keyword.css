@@ -1,0 +1,125 @@
+.top__navigate__area {
+  background: white;
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+
+.sqa__table-data.top__navigate {
+  padding: 0 !important;
+}
+
+.sqa__table-head {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#47a07b),
+    to(#285a44)
+  );
+  background-image: linear-gradient(45deg, #0e1c1d 70%, #47a07b);
+  border-bottom: none;
+  color: #fff;
+}
+
+.sqa__table-title {
+  color: #2db159;
+  padding: 5px 5px;
+}
+
+.sqa__table-body {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+th.sqa__customers {
+  background: none !important;
+  color: #2db159 !important;
+  margin: 0;
+  padding: 0;
+}
+
+.sqa__customer-typo {
+  margin: 0;
+}
+
+table.sqa__table-data {
+  width: 100%;
+  padding: 20px;
+}
+
+table,
+th,
+td {
+  padding: 10px;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+th:nth-child(1) {
+  background-image: linear-gradient(45deg, #47a07b 10%, #0e1c1d 80%);
+  color: white;
+  padding-right: 10px;
+}
+
+th:nth-child(2) {
+  background-image: linear-gradient(45deg, #0e1c1d 100%, #47a07b);
+  color: white;
+  text-align: center;
+}
+
+th:nth-child(3) {
+  background-image: linear-gradient(45deg, #0e1c1d 100%, #47a07b);
+  text-align: center;
+  color: white;
+}
+
+th:nth-child(4) {
+  background-image: linear-gradient(45deg, #0e1c1d 20%, #47a07b 60%);
+  text-align: center;
+  color: white;
+}
+
+td:nth-child(1) {
+  text-align: left;
+}
+
+td:nth-child(2) {
+  text-align: center;
+}
+
+td:nth-child(3) {
+  text-align: center;
+}
+
+td:nth-child(4) {
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.table-responsive.sqa__table.top-navigate {
+  background: #fff;
+  height: 400px !important;
+}
+button.dashboard__global__btn.sqa__add-btns {
+  width: 40%;
+  margin: 10px 0 0 0;
+  padding: 15px;
+}
+.table-responsive.sqa__table::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  table.sqa__table-data {
+    width: 800px;
+  }
+  .sqa__add-btn {
+    width: 800px;
+  }
+  .table-responsive.sqa__table {
+    overflow: scroll;
+  }
+}
