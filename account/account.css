@@ -1,7 +1,7 @@
 .account__area {
   background: white;
   border-radius: 20px;
-  padding: 10px 5px;
+  padding: 10px 15px;
 }
 
 .card {
@@ -205,6 +205,11 @@ tr:nth-child(even) {
   display: none;
 }
 
+.dashboard__main-img {
+  width: 100% !important;
+  height: 140px !important;
+}
+
 @media (max-width: 767.98px) {
   .account__area {
     height: 100%;
@@ -215,5 +220,14 @@ tr:nth-child(even) {
 
   .sqa__viewMore-btn {
     width: 800px;
+  }
+}
+
+@media (max-width: 1399.98px) {
+  .dashboard__icon {
+    width: 50px;
+  }
+  span.price {
+    font-size: 20px;
   }
 }
