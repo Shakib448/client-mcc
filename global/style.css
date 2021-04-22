@@ -222,8 +222,8 @@ a.nav-link.sqa__navigation-item-sidebar {
   }
 }
 
-/* @media (max-width: 1399.98px) {
+@media (max-width: 1399.98px) {
   a.nav-link.sqa__navigation-item-sidebar {
     padding: 10px !important;
   }
-} */
+}
