@@ -221,3 +221,9 @@ a.nav-link.sqa__navigation-item-sidebar {
     font-size: 15px;
   }
 }
+
+/* @media (max-width: 1399.98px) {
+  a.nav-link.sqa__navigation-item-sidebar {
+    padding: 10px !important;
+  }
+} */
