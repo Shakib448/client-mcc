@@ -552,7 +552,9 @@
               <button class="dashboard__global__btn">KEYWORD IS OK</button>
             </div>
           </div>
-          <div class="table-responsive sqa__table">
+          <div
+            class="table-responsive sqa__md__table d-none d-md-block d-lg-block"
+          >
             <table class="sqa__table-data">
               <tr>
                 <th>
@@ -574,6 +576,31 @@
                 </th>
                 <th>SPEND <i class="fas fa-chevron-down text-light"></i></th>
               </tr>
+            </table>
+          </div>
+          <div class="table-responsive sqa__table">
+            <table class="sqa__table-data">
+              <tr class='.d-block .d-sm-block d-md-none d-lg-none'>
+                <th>
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1">
+                      ALL</label
+                    >
+                  </div>
+                </th>
+                <th>DATE <i class="fas fa-chevron-down text-light"></i></th>
+                <th>
+                  NEGATIVE KEYWORD
+                  <i class="fas fa-chevron-down text-light"></i>
+                </th>
+                <th>SPEND <i class="fas fa-chevron-down text-light"></i></th>
+              </tr>
+
               <tr>
                 <td>
                   <div class="form-check">
