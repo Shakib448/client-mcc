@@ -258,11 +258,6 @@ tr:nth-child(even) {
   cursor: pointer;
 }
 
-.sqa__table-md-data {
-  width: 100%;
-  padding: 0px 10px;
-}
-
 @media (max-width: 767.98px) {
   table.sqa__table-dashboard-data {
     width: 800px;
