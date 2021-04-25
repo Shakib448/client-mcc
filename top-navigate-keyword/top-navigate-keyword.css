@@ -108,9 +108,9 @@ button.dashboard__global__btn.sqa__add-btns {
   margin: 10px 0 0 0;
   padding: 15px;
 }
-.table-responsive.sqa__table::-webkit-scrollbar {
+/* .table-responsive.sqa__table::-webkit-scrollbar {
   display: none;
-}
+} */
 
 @media (max-width: 768px) {
   table.sqa__table-data {

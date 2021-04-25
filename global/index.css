@@ -147,7 +147,7 @@ span.price {
   background: #fff;
   margin: 20px 0 0 0;
   padding: 20px 0;
-  border-radius: 25px 25px 0 0;
+  border-radius: 15px;
 }
 
 th.sqa__customers {
