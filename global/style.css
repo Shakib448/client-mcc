@@ -151,14 +151,14 @@ span#basic-addon3 {
   background: white;
 }
 
-.table-responsive.sqa__table::-webkit-scrollbar {
+/* .table-responsive.sqa__table::-webkit-scrollbar {
   overflow-x: scroll;
   display: none;
 }
 .table-responsive.sqa__md__table::-webkit-scrollbar {
   overflow-x: scroll;
   display: none;
-}
+} */
 button.dashboard__global__btn {
   width: 100%;
 }
