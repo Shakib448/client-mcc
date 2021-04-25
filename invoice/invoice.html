@@ -388,9 +388,21 @@
           </div>
         </div>
         <div class="main__content-area">
-          <div class="table-responsive sqa__table">
-            <table class="sqa__table-data">
+          <div
+            class="table-responsive sqa__md__table d-none d-md-block d-lg-block"
+          >
+            <table class="sqa__table-md-data">
               <tr>
+                <th>Date</th>
+                <th>Invoice Number</th>
+                <th>Amount Due(USD)</th>
+                <th>Amount Due(PAID)</th>
+              </tr>
+            </table>
+          </div>
+          <div class="table-responsive sqa__table">
+            <table class="sqa__table-invoice-data">
+              <tr class="d-md-none d-lg-none">
                 <th>Date</th>
                 <th>Invoice Number</th>
                 <th>Amount Due(USD)</th>

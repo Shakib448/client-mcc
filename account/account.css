@@ -106,15 +106,18 @@ th.sqa__customers {
 }
 .table-responsive.sqa__table {
   background: white;
-  padding: 20px 0;
   height: 500px;
-
-  border-radius: 25px;
-  margin: 20px 0px;
+  border-radius: 0px 0px 25px 25px;
+}
+.table-responsive.sqa__md__table {
+  margin-top: 20px;
+  border-radius: 25px 25px 0px 0px;
+  padding: 20px 10px 0px 10px;
 }
 
-table.sqa__table-data {
+table.sqa__table-account-data {
   width: 100%;
+  padding: 0px 20px;
 }
 
 table,
@@ -214,7 +217,7 @@ tr:nth-child(even) {
   .account__area {
     height: 100%;
   }
-  table.sqa__table-data {
+  table.sqa__table-account-data {
     width: 800px;
   }
 

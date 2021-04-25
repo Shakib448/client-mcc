@@ -169,13 +169,9 @@ th.sqa__customers {
   overflow-y: scroll;
 }
 
-.table-responsive.sqa__table::-webkit-scrollbar {
-  overflow-x: scroll;
-  display: none;
-}
-
-table.sqa__table-data {
+table.sqa__table-dashboard-data {
   width: 100%;
+  padding: 0 10px 10px 10px;
 }
 
 table,
@@ -262,8 +258,13 @@ tr:nth-child(even) {
   cursor: pointer;
 }
 
+.sqa__table-md-data {
+  width: 100%;
+  padding: 0px 10px;
+}
+
 @media (max-width: 767.98px) {
-  table.sqa__table-data {
+  table.sqa__table-dashboard-data {
     width: 800px;
   }
   .dashboard__content {
