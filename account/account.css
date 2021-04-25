@@ -107,29 +107,20 @@ th.sqa__customers {
 .table-responsive.sqa__table {
   background: white;
   height: 500px;
-  border-radius: 0px 0px 25px 25px;
-}
-.table-responsive.sqa__md__table {
-  margin-top: 20px;
-  border-radius: 25px 25px 0px 0px;
-  padding: 20px 10px 0px 10px;
+  border-radius: 15px;
+  margin: 20px 0;
 }
 
 table.sqa__table-account-data {
   width: 100%;
-  padding: 0px 20px;
+  padding: 10px 20px;
 }
-
 table,
 th,
 td {
   padding: 10px;
   border-collapse: separate;
   border-spacing: 0 10px;
-}
-
-th:nth-child(1) {
-  background: transparent;
 }
 
 th:nth-child(1) {
