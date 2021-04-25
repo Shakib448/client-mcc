@@ -155,6 +155,8 @@ span#basic-addon3 {
 
 button.dashboard__global__btn {
   width: 100%;
+  padding: 15px;
+
 }
 
 .d-flex.align-items-center {
