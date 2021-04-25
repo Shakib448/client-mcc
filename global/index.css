@@ -169,11 +169,6 @@ th.sqa__customers {
   overflow-y: scroll;
 }
 
-.table-responsive.sqa__table::-webkit-scrollbar {
-  overflow-x: scroll;
-  display: none;
-}
-
 table.sqa__table-data {
   width: 100%;
 }

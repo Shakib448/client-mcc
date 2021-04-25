@@ -178,6 +178,10 @@ input.form-control.view__history-search.p-2 {
   .view__history__table {
     overflow: scroll !important;
   }
+  .view__history__table::-webkit-scrollbar {
+    overflow-x: scroll;
+    display: none;
+  }
   .view__history__content {
     width: 1000px;
     display: flex;
