@@ -136,6 +136,7 @@ span#basic-addon3 {
 
 ::-webkit-scrollbar {
   width: 10px;
+  height: 10px; /
 }
 
 ::-webkit-scrollbar-track {
@@ -151,14 +152,7 @@ span#basic-addon3 {
   background: white;
 }
 
-/* .table-responsive.sqa__table::-webkit-scrollbar {
-  overflow-x: scroll;
-  display: none;
-}
-.table-responsive.sqa__md__table::-webkit-scrollbar {
-  overflow-x: scroll;
-  display: none;
-} */
+
 button.dashboard__global__btn {
   width: 100%;
 }
