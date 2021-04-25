@@ -147,7 +147,9 @@ span#basic-addon3 {
   background: linear-gradient(#47a07b, #285a44);
   border-radius: 10px;
 }
-
+.table-responsive.sqa__md__table {
+  background: white;
+}
 button.dashboard__global__btn {
   width: 100%;
 }
