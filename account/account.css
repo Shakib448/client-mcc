@@ -195,10 +195,6 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.table-responsive.sqa__table::-webkit-scrollbar {
-  display: none;
-}
-
 .dashboard__main-img {
   width: 100% !important;
   height: 140px !important;

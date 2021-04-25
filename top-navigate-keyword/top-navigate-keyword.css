@@ -105,11 +105,8 @@ tr:nth-child(even) {
 }
 button.dashboard__global__btn.sqa__add-btns {
   width: 40%;
-  margin: 10px 0 0 0;
+  margin: 10px 0;
   padding: 15px;
-}
-.table-responsive.sqa__table::-webkit-scrollbar {
-  display: none;
 }
 
 @media (max-width: 768px) {

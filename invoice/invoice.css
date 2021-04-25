@@ -117,9 +117,6 @@ tr:nth-child(even) {
   background: #fff;
   height: 500px;
 }
-.table-responsive.sqa__table::-webkit-scrollbar {
-  display: none;
-}
 
 @media (max-width: 768px) {
   table.sqa__table-invoice-data {
