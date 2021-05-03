@@ -252,13 +252,18 @@ a.nav-link.sqa__navigation-item-sidebar {
   .mobile__table {
     font-size: 12px;
   }
+  .mobile__calender {
+    height: 50px;
+    margin-top: 5px;
+  }
 }
 @media (max-width: 575.98px) {
-  /* .mobile__inline2 {
+  /* .mobile__inline1,
+  .mobile__inline2 {
     flex-direction: column;
     justify-content: center;
   } */
   .mobile-btn-size {
-    font-size: 8px !important;
+    font-size: 10px !important;
   }
 }
