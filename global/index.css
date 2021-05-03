@@ -45,6 +45,26 @@
   display: flex;
   align-items: baseline;
 }
+.dashboard__mobile-content {
+  width: 100%;
+  background: #fff;
+  margin: 20px 0 0 0;
+  padding: 20px 0;
+  border-radius: 15px 15px 0 0;
+  padding: 15px 10px 0px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mobile__inline1,
+.mobile__inline2 {
+  display: flex;
+}
+.mobile__input,
+.mobile-btn {
+  flex-grow: 1;
+}
 
 .dashboard-search {
   border-radius: 25px !important;
