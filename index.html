@@ -391,7 +391,7 @@
           </div>
         </div>
         <div class="main__content-area">
-          <div class="dashboard__area">
+          <div class="dashboard__area d-none d-md-block d-lg-block">
             <div class="change__plan__packages">
               <div class="dashboard__main-package-area">
                 <div class="row">
@@ -523,35 +523,75 @@
             </div>
           </div>
           <!-- Table -->
-          <div class="dashboard__content row">
-            <div class="col-md-1 text-center dashboard__calender-icon">
-              <img src="assets/calender.png" alt=".." />
-            </div>
-            <div class="col-md-5 dashboard__search">
-              <div class="input-group mb-3 dashboard__search__form">
-                <input
-                  type="text"
-                  class="form-control dashboard-search p-2"
-                  aria-label="Search"
-                  aria-describedby="basic-addon3"
-                  placeholder="Search..."
-                />
-                <span class="input-group-text" id="basic-addon3">
-                  <img src="../assets/Group 5787.png" alt="search" />
-                </span>
+          <!-- Desktop table -->
+          <div class="desktop__table-header d-none d-md-block d-lg-block">
+            <div class="dashboard__content row">
+              <div class="col-md-1 text-center dashboard__calender-icon">
+                <img src="assets/calender.png" alt=".." />
+              </div>
+              <div class="col-md-5 dashboard__search">
+                <div class="input-group mb-3 dashboard__search__form">
+                  <input
+                    type="text"
+                    class="form-control dashboard-search p-2"
+                    aria-label="Search"
+                    aria-describedby="basic-addon3"
+                    placeholder="Search..."
+                  />
+                  <span class="input-group-text" id="basic-addon3">
+                    <img src="../assets/Group 5787.png" alt="search" />
+                  </span>
+                </div>
+              </div>
+
+              <div class="col-md-4 text-center dashboard__sm-btn">
+                <button class="dashboard__global__btn">
+                  <i class="fas fa-plus text-light"></i> ADD NEGATIVE KEYWORD
+                  EXACT
+                </button>
+              </div>
+              <div class="col-md-2 dashboard__sm-btn">
+                <button class="dashboard__global__btn">KEYWORD IS OK</button>
               </div>
             </div>
-
-            <div class="col-md-4 text-center dashboard__sm-btn">
-              <button class="dashboard__global__btn">
-                <i class="fas fa-plus text-light"></i> ADD NEGATIVE KEYWORD
-                EXACT
-              </button>
+          </div>
+          <!-- End -->
+          <!-- Mobile header -->
+          <div
+            class="mobile_table-header dashboard__mobile-content d-block d-md-none d-lg-none"
+          >
+            <div class="mobile__inline1">
+              <div class="dashboard__calender-icon">
+                <img src="assets/calender.png" alt=".." />
+              </div>
+              <div class="dashboard__search mobile__input">
+                <div class="input-group mb-3 dashboard__search__form">
+                  <input
+                    type="text"
+                    class="form-control dashboard-search p-2"
+                    aria-label="Search"
+                    aria-describedby="basic-addon3"
+                    placeholder="Search..."
+                  />
+                  <span class="input-group-text" id="basic-addon3">
+                    <img src="../assets/Group 5787.png" alt="search" />
+                  </span>
+                </div>
+              </div>
             </div>
-            <div class="col-md-2 dashboard__sm-btn">
-              <button class="dashboard__global__btn">KEYWORD IS OK</button>
+            <div class="mobile__inline2">
+              <div class="text-center dashboard__sm-btn mobile-btn">
+                <button class="dashboard__global__btn">
+                  <i class="fas fa-plus text-light"></i> ADD NEGATIVE KEYWORD
+                  EXACT
+                </button>
+              </div>
+              <div class="dashboard__sm-btn mobile-btn">
+                <button class="dashboard__global__btn">KEYWORD IS OK</button>
+              </div>
             </div>
           </div>
+          <!-- End -->
 
           <div class="table-responsive sqa__table">
             <table class="sqa__table-dashboard-data">
