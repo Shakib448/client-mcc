@@ -378,18 +378,36 @@
       <!--All Content Breadcrumb -->
 
       <div class="contents">
-        <div class="breadcrumb__all">
-          <div class="breadcrumb__contnet">
+        <div class="desktop__breadcrumb d-none d-md-block d-lg-block">
+          <div class="breadcrumb__all">
+            <div class="breadcrumb__contnet">
+              <h4>Welcome to Dashboard</h4>
+              <h5>
+                Dashboard / Customer /
+                <span class="breadcrumb__active">1 Smile Dental</span>
+              </h5>
+            </div>
+            <div class="breadcrumb__notification">
+              <img src="../assets/Group 5798@2x.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile breadcrumb -->
+        <div
+          class="breadcrumb__all text-center mobile__all d-block d-lg-none d-md-none"
+        >
+          <div class="breadcrumb__contnet mobile__content">
             <h4>Welcome to Dashboard</h4>
             <h5>
               Dashboard / Customer /
-              <span class="breadcrumb__active">1 Smile Dental</span>
+              <span class="breadcrumb__active mobile__content"
+                >1 Smile Dental</span
+              >
             </h5>
           </div>
-          <div class="breadcrumb__notification">
-            <img src="../assets/Group 5798@2x.png" alt="" />
-          </div>
         </div>
+        <!-- End -->
         <div class="main__content-area">
           <div class="dashboard__area d-none d-md-block d-lg-block">
             <div class="change__plan__packages">
@@ -561,7 +579,7 @@
             class="mobile_table-header dashboard__mobile-content d-block d-md-block d-lg-none"
           >
             <div class="mobile__inline1">
-              <div class="dashboard__calender-icon">
+              <div class="dashboard__calender-icon mobile-icon">
                 <img src="assets/calender.png" alt=".." />
               </div>
               <div class="dashboard__search mobile__input">
@@ -580,7 +598,9 @@
               </div>
             </div>
             <div class="mobile__inline2">
-              <div class="text-center dashboard__sm-btn mobile-btn">
+              <div
+                class="text-center dashboard__sm-btn mobile-btn mobile-btn-r"
+              >
                 <button class="dashboard__global__btn">
                   <i class="fas fa-plus text-light"></i> ADD NEGATIVE KEYWORD
                   EXACT
