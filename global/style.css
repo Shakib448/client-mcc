@@ -136,7 +136,7 @@ span#basic-addon3 {
 
 ::-webkit-scrollbar {
   width: 10px;
-  height: 10px; /
+  height: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -152,11 +152,9 @@ span#basic-addon3 {
   background: white;
 }
 
-
 button.dashboard__global__btn {
   width: 100%;
   padding: 15px;
-
 }
 
 .d-flex.align-items-center {
@@ -172,7 +170,10 @@ li.nav-item.mb-3 {
   font-size: 20px;
 }
 .mobile__logo {
-  width: 150px;
+  width: 100px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.mobile__nav {
+  padding: 0;
 }
 
 span.sqa__navigation-item-sidebar-span {
@@ -237,5 +238,27 @@ a.nav-link.sqa__navigation-item-sidebar {
 @media (max-width: 1399.98px) {
   a.nav-link.sqa__navigation-item-sidebar {
     padding: 10px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .mobile__content h4 {
+    font-weight: bold;
+  }
+  .mobile__content h5 {
+    font-size: 12px;
+  }
+
+  .mobile__table {
+    font-size: 12px;
+  }
+}
+@media (max-width: 575.98px) {
+  /* .mobile__inline2 {
+    flex-direction: column;
+    justify-content: center;
+  } */
+  .mobile-btn-size {
+    font-size: 8px !important;
   }
 }
