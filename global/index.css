@@ -283,15 +283,15 @@ tr:nth-child(even) {
 }
 
 @media (max-width: 767.98px) {
-  table.sqa__table-dashboard-data {
+  /* table.sqa__table-dashboard-data {
     width: 800px;
-  }
+  } */
   .dashboard__content {
     padding: 20px 0;
   }
-  .sqa__viewMore-btn {
+  /* .sqa__viewMore-btn {
     width: 800px;
-  }
+  } */
 
   .dashboard__sm-btn {
     display: flex;
